@@ -42,6 +42,7 @@
   
   .task-wrapper {
     display: flex;
+    margin: 20px 0 0;
   }
   
   .tasks {
@@ -74,8 +75,7 @@
   }
   
   /* Heading */
-  .title-section,
-  .label[for="new-task"] {
+  .title-section {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -103,11 +103,6 @@
   }
   
   /* New Task */
-  .label[for="new-task"] {
-    display: block;
-    margin: 0 0 20px;
-  }
-  
   #new-task {
     width: 318px;
   }
@@ -152,7 +147,7 @@
   }
   
   /* Completed */
-  #completed-tasks .label {
+  .tasks#completed-tasks .label {
     text-decoration: line-through;
     color: #888;
   }
