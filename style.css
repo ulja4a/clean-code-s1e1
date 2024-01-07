@@ -153,11 +153,11 @@
   }
   
   /* Edit Task */
-  .tasks .tasks-input .input[type=text] {
+  .tasks .tasks-input .input[type="text"] {
     display: none;
   }
   
-  .tasks .tasks-input.edit-mode .input[type=text] {
+  .tasks .tasks-input.edit-mode .input[type="text"] {
     display: inline-block;
     width: 224px;
   }
